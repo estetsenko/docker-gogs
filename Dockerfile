@@ -8,7 +8,7 @@ RUN git clone https://github.com/gogits/gogs.git /gopath/src/github.com/gogits/g
 
 # set the working directory and add current stuff
 WORKDIR /gopath/src/github.com/gogits/gogs
-RUN git checkout master
+RUN git checkout dev
 RUN go get -v -tags sqlite
 RUN go build -tags sqlite
 
