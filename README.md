@@ -8,7 +8,7 @@ Dockerfile for [gogs](http://gogs.io) server(a self-hosted git service).
 docker pull estetsenko/docker-gogs
 
 mkdir /var/gogs
-docker run -d -p 22:22 -p 3000:3000 -v /var/gogs:/data codeskyblue/docker-gogs
+docker run -d -p 22:22 -p 3000:3000 -v /var/gogs:/data estetsenko/docker-gogs
 ```
 
 Open bowser and naviage to
